@@ -10,6 +10,8 @@ class App extends Component {
   };
 
   handleFormData = (data) => {
+    console.log("test commit1");
+    console.log("test commit2");
     let arr = this.state.moviesList;
     let itemIndex = this.state.moviesList.findIndex(
       (item) => item.name === data.name
